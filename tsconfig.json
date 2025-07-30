@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "outDir": "./",
+    "strict": true
+  },
+  "include": ["main.ts"],
+  "exclude": ["node_modules", "dist"]
+}
