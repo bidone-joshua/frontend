@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
-    "start": "serve ."
+    "start": "serve -l tcp://0.0.0.0:4200"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
