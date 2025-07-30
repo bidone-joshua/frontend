@@ -17,5 +17,5 @@ COPY --from=builder /app /app
 
 RUN npm install --production
 
-EXPOSE 3000
+EXPOSE 4200
 CMD ["npm", "start"]
